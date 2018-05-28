@@ -1,21 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render ExpenseList with empty message 1`] = `
+exports[`should render ExpensesSummary with 1 expense 1`] = `
 <div>
   <p>
     Viewing 
-     expenses totalling 
-    $0.00
+    1
+     
+    expense
+     totalling 
+    $2.35
   </p>
 </div>
 `;
 
-exports[`should render ExpenseList with expenses 1`] = `
+exports[`should render ExpensesSummary with multiple expenses message 1`] = `
 <div>
   <p>
     Viewing 
-     expenses totalling 
-    $0.00
+    4
+     
+    expenses
+     totalling 
+    $12.34
   </p>
 </div>
 `;
